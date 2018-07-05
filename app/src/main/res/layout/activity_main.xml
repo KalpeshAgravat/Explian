@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_gravity="right"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android widgets"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/buttontoggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle_button" />
+    <Button
+        android:id="@+id/buttoncheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox,
+        Custom Checkbox" />
+    <Button
+        android:id="@+id/buttonseekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="seekbar" />
+    <Button
+        android:id="@+id/buttonspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner" />
+    <Button
+        android:id="@+id/buttonautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto Complete Textview" />
+    <Button
+        android:id="@+id/buttonlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView" />
+    <Button
+        android:id="@+id/buttonrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating" />
+    <Button
+        android:id="@+id/buttonwebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Webview" />
+    <Button
+        android:id="@+id/buttondatepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Picker" />
+    <Button
+        android:id="@+id/buttontimepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Picker" />
+
+        <Button
+            android:id="@+id/buttonimageswicher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Switcher" />
+        <Button
+            android:id="@+id/buttonfragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragments" />
+        <Button
+            android:id="@+id/buttonoptionmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option Menu" />
+        <Button
+            android:id="@+id/buttoncontextmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Context Menu" />
+        <Button
+            android:id="@+id/buttonpopuptmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PopUp Menu" />
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

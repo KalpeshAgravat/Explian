@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Explian</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javapoint Alert Dialog</string>
+    <string name="upload">upload</string>
+    <string name="mail">mail</string>
+    <string name="share">share</string>
+    <string-array name="array_teconology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+        <item>Sap</item>
+        <item>Python</item>
+        <item>Ajax</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>Rails</item>
+        <item>.Net</item>
+        <item>Perl</item>
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Chek_Radio_boxActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default CheckBox"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger" />
+
+    <CheckBox
+        android:id="@+id/checkBox2Pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza" />
+
+    <CheckBox
+        android:id="@+id/chekboxsandwich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandwich" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Total" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="80dp"
+        android:background="#B8B894"
+        android:id="@+id/viewStub" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom CheckBox"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <CheckBox
+        android:layout_margin="5dp"
+        android:id="@+id/checkBoxBurger1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Burger"
+        android:button="@drawable/checkbox"/>
+
+    <CheckBox
+        android:layout_margin="5dp"
+        android:id="@+id/checkBox2Pizza1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Pizza"
+        android:button="@drawable/checkbox"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Total" />
+
+
+
+</LinearLayout>
